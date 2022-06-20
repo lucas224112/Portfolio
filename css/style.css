@@ -1,0 +1,88 @@
+body {
+    margin: 0px;padding: 0px;box-sizing: border-box;
+    background-image: url(../media/images/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+}
+
+a {
+    background: none;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+a[type = "button"] {
+    color: rgb(200, 200, 200);
+    background: none;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .075em;
+    margin: 0px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding: auto;
+
+    background-color: rgba(0, 0, 0, 50%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+a:hover[type = "button"]{
+    color: rgb(255, 255, 255);
+
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 60%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+.profire div{
+    display: flex;
+    justify-content: center;
+}
+
+.profire div img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.profire div[id="name"] h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.profire div[id="biography"] {
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+}
+
+.profire div[id="biography"] p{
+    margin: 0px;
+}
+
+.profire div[id="button_links"] {
+    display: inline;
+    text-align: center;
+}
+
+.profire div[id="button_links"] div{
+    display: flex;
+    justify-content: center;
+}
