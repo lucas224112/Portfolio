@@ -10,6 +10,10 @@ body {
     color: rgb(200, 200, 200);
 }
 
+.debug {
+    height: 25px;
+}
+
 a {
     background: none;
     text-decoration: none;
@@ -26,7 +30,7 @@ a[type = "button"] {
     letter-spacing: .075em;
     margin: 0px;
     margin-top: 20px;
-    padding-top: 14px;
+    padding-top: 16px;
     padding: auto;
 
     background-color: rgba(0, 0, 0, 50%);
