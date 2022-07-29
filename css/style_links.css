@@ -1,0 +1,101 @@
+.space {
+    height: 25px;
+}
+
+.space[id="baseboard"] {
+    height: 100px;
+}
+
+a {
+    background: none;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+a[type = "button"] {
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: .075em;
+    margin: 0px;
+    margin-top: 20px;
+    padding-top: 16px;
+    background-color: rgba(0, 0, 0, 50%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+a:hover[type = "button"]{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 60%);
+    backdrop-filter: blur(10px);
+    width: 320px;
+    transition: 0.3s;
+}
+
+.profile div{
+    display: flex;
+    justify-content: center;
+}
+
+.profile div[id="profile_picture"] img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.profile div[id="name"] h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.profile div[id="biography"] {
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+}
+
+.profile div[id="biography"] p{
+    margin: 0px;
+}
+
+.profile div[id="CEO"] p{
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.profile div[id="CEO"] p a{
+    color: rgb(200, 200, 200);
+    transition: 0.3s;
+}
+
+.profile div[id="CEO"] p a:hover{
+    color: rgb(200, 200, 255);
+    transition: 0.3s;
+}
+
+.profile div[id="button_links"] {
+    display: inline;
+    text-align: center;
+}
+
+.profile div[id="button_links"] div{
+    display: flex;
+    justify-content: center;
+}
+
+.baseboard_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.baseboard_logo a{
+    position: fixed;
+    bottom: 15px;
+}
+
+.baseboard_logo a img{
+    width: 200px;
+}
