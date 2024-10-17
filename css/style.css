@@ -195,11 +195,16 @@ h4 {
     border-radius: 10px;
 }
 
+.project h4 {
+    font-size: 25px;
+}
+
 .project_img img {
-    width: 100%;
+    width: calc(100% - 4px);
     height: auto;
     aspect-ratio: 16/9;
     border-radius: 10px 10px 0 0;
+    border: 2px solid rgb(29, 31, 33);
 }
 
 .project_links {
@@ -224,6 +229,10 @@ h4 {
     justify-content: center;
 }
 
+.project_used_skills {
+    margin-bottom: 10px;
+}
+
 .skill {
     width: 300px;
     min-width: 300px;
@@ -241,6 +250,10 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.skills h4 {
+    font-size: 25px;
 }
 
 ._contact {
@@ -285,6 +298,14 @@ h4 {
     -webkit-text-fill-color: rgb(200, 200, 200);
 }
 
+.contact_error {
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 50, 50);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .in_contact_send_mail{
     width: 80%;
 }
@@ -301,6 +322,29 @@ h4 {
     margin: 12px 0 12px 0;
     padding: 12px;
     resize: none;
+}
+
+.contact_terms {
+    margin: 0px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contact_terms input {
+    cursor: pointer;
+}
+
+.contact_terms label {
+    cursor: pointer;
+}
+
+.contact_terms a {
+    color: rgb(150, 150, 150);
+}
+
+.contact_terms a:hover {
+    color: rgb(150, 150, 255);
 }
 
 .contact_send_button {
@@ -341,9 +385,9 @@ h4 {
 }
 
 .contact svg {
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
     fill: rgb(200, 200, 200);
 }
 
@@ -470,6 +514,13 @@ h4 {
 
 .button_d001 button:hover,.button_d001 a div:hover {
     background: rgb(80, 80, 160);
+}
+
+#admin_link {
+    background: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
 }
 
 .copyright {

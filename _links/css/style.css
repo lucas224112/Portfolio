@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    height: 100%;
+}
+
+.blur {
+    filter: blur(5px) brightness(0.4);
+}
+
+.background {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.background-noise {
+    position: fixed;
+    background-image: url('https://monumentalgames.com.br/media/images/noise.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.05);
+}
+
+main {
+    position: absolute;
+    padding-bottom: 100px;
+    width: 100%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+a {
+    background: none;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+a[type = "button"] {
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: .075em;
+    margin: 0px;
+    margin-top: 20px;
+    padding-top: 16px;
+    background-color: rgba(0, 0, 0, 50%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+a:hover[type = "button"]{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 60%);
+    /*backdrop-filter: blur(10px);*/
+    width: 320px;
+    transition: 0.3s;
+}
+
+.profile {
+    padding-bottom: 25px;
+}
+
+.profile div{
+    display: flex;
+    justify-content: center;
+}
+
+.profile [id="profile_picture"] img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.profile [id="name"] h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.profile [id="biography"] {
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+}
+
+.profile [id="biography"] p{
+    margin: 0px;
+}
+
+.profile [id="CEO"] p{
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.profile [id="CEO"] a{
+    color: rgb(200, 200, 200);
+    transition: 0.3s;
+}
+
+.profile [id="CEO"] a:hover{
+    color: rgb(200, 200, 255);
+    transition: 0.3s;
+}
+
+.button_links {
+    display: inline;
+    text-align: center;
+}
+
+.button_links div{
+    display: flex;
+    justify-content: center;
+}
+
+.baseboard{
+    position: fixed;
+    transform: translateX(-50%);
+    bottom: 15px;
+    left: 50%;
+}
+
+.baseboard img{
+    width: 200px;
+}
